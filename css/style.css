@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width:100%;
+    height:auto;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    color: white;
+}
+.container{
+    width:800px;
+    height:auto;
+    display: flex;
+    justify-content: center;
+}
+input{
+ width:500px;
+ height: 40px;
+ margin: 5px;
+ text-indent: 20px;
+ border-radius: 5px;
+ border: none;
+ outline: none;
+}
+#resetbtn{
+    background-color:orange;
+    outline: none;
+    border: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+#resetbtn:hover{
+    background-color: rgba(255, 166, 0, 0.985);
+    color: black;
+}
+#btn{
+    background-color:blue;
+    outline: none;
+    border: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+    margin-left: 30%;
+    margin-top: 20px;
+    cursor: pointer;
+}
+#btn:hover{
+    background-color: rgba(0, 0, 255, 0.897);
+    color: black;
+}
+.display-data{
+    width:100%;
+    margin-top: 10%;
+    color: black;
+}
+.message{
+    margin: 20px 0px;
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    color:rgb(58, 255, 58)
+}
+table,tr{
+    border: 3px solid red;
+    height:auto;
+    width: 100%;
+    background-color: white;
+    border-collapse: collapse;
+}
+th{
+    color:blue;
+    font-weight: bold;
+    font-size: 18px;
+}
+th,td{
+    border: 1px solid red;
+   text-align: center;
+   padding: 10px 20px;
+}
+#edit{
+    background-color: rgb(61, 205, 61);
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 12px;
+    cursor: pointer;
+}
+#edit:hover{
+    background-color: rgba(61, 205, 61, 0.763);
+    color:white;
+}
+#delete{
+    background-color: orangered;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 12px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+#delete:hover{
+    background-color: rgba(255, 68, 0, 0.84);
+    color:white;
+}
+.editactive{
+    border: 5px solid orange;
+}
